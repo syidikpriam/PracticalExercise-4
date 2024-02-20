@@ -6,15 +6,19 @@
    <elementGuidId>7e1fb715-b481-4c43-a61a-459a17f1fbf3</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Sauce Labs Backpack' or . = 'Sauce Labs Backpack')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//a[@id='item_4_title_link']/div</value>
       </entry>
-      <entry>
-         <key>CSS</key>
-         <value>div.inventory_item_name</value>
-      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>a1e719a3-4362-4183-99c9-e4bc8b97d203</webElementGuid>
+      <webElementGuid>887d48ee-a9d2-4733-843e-5b5084085916</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>inventory_item_name </value>
-      <webElementGuid>72b7eb13-a09c-4cf1-84f0-f386c0df64b0</webElementGuid>
+      <webElementGuid>2b79c8f5-a3bb-47d7-bff4-577881e08be2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +42,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Sauce Labs Backpack</value>
-      <webElementGuid>ba7b36d1-3520-4339-8213-da2a685e21d8</webElementGuid>
+      <webElementGuid>7452216d-9415-4f84-9d91-70b83f6f1f07</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +50,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;item_4_title_link&quot;)/div[@class=&quot;inventory_item_name&quot;]</value>
-      <webElementGuid>4de3c072-fa99-492b-bb62-f7c0f3fb93fa</webElementGuid>
+      <webElementGuid>a09eeda5-cace-4f70-9f73-60bd084d75aa</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +58,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//a[@id='item_4_title_link']/div</value>
-      <webElementGuid>02a3bfc5-2596-4c89-b243-345a95113eaa</webElementGuid>
+      <webElementGuid>a4ed1dd7-e456-465f-8d57-a08bcd024305</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +66,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Name (A to Z)'])[1]/following::div[9]</value>
-      <webElementGuid>3d7e1661-83f7-4395-bacf-d1fc081b6186</webElementGuid>
+      <webElementGuid>fac04185-07cc-482c-b2e3-dce9c1321279</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Products'])[1]/following::div[10]</value>
-      <webElementGuid>4c990d0d-ebf9-4843-b59e-fc8dcbba5f94</webElementGuid>
+      <webElementGuid>7187a650-618f-447c-8d74-d30b280c56ea</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='$29.99'])[1]/preceding::div[2]</value>
-      <webElementGuid>3e9fb105-b265-47a4-891e-39f9dd081af9</webElementGuid>
+      <webElementGuid>995a5fbd-57dd-4577-a80c-a2e1ad6b01a7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Add to cart'])[1]/preceding::div[3]</value>
-      <webElementGuid>058ff408-b7c0-48d6-b9cb-6f1e7ba22daa</webElementGuid>
+      <webElementGuid>93acdcb2-4591-49a0-8152-9634174517d2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Sauce Labs Backpack']/parent::*</value>
-      <webElementGuid>926f432a-f39d-4975-99e8-111d65c810e2</webElementGuid>
+      <webElementGuid>fb9ca463-7620-441a-94f4-1ad364bf1b00</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +106,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//a/div</value>
-      <webElementGuid>3bdaf193-c359-4b88-95bb-3821eaf5945e</webElementGuid>
+      <webElementGuid>ce673e9a-b8f7-4309-b97a-41a56cbb80b4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +114,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'Sauce Labs Backpack' or . = 'Sauce Labs Backpack')]</value>
-      <webElementGuid>721373c3-abfe-4093-b5c9-b0b0cc7f575c</webElementGuid>
+      <webElementGuid>bb368772-4d33-4a12-bb88-07c95dbcd91c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

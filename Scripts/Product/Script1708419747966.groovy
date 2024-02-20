@@ -26,16 +26,12 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.saucedemo.com/')
 
-WebUI.click(findTestObject('Object Repository/Page_Swag Labs/div_Accepted usernames arestandard_userlock_0d4679'))
-
 WebUI.setText(findTestObject('Object Repository/Page_Swag Labs/input_Swag Labs_user-name'), username)
-
-WebUI.click(findTestObject('Object Repository/Page_Swag Labs/body_You need to enable JavaScript to run t_37d0d7'))
 
 WebUI.setText(findTestObject('Object Repository/Page_Swag Labs/input_Swag Labs_password'), password)
 
 WebUI.click(findTestObject('Object Repository/Page_Swag Labs/input_Swag Labs_login-button'))
 
-WebUI.click(findTestObject(product))
+WebUI.click(findTestObject('Object Repository/Page_Swag Labs/product' , [product : product] ))
 
 
