@@ -26,15 +26,41 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.saucedemo.com/')
 
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Swag Labs/Page_Swag Labs/div_Swag Labs'), 10, FailureHandling.OPTIONAL)
+
+String view = WebUI.getText(findTestObject('Object Repository/Page_Swag Labs/Page_Swag Labs/div_Swag Labs'))
+
+WebUI.verifyMatch(view, 'Swag Labs', false)
+
 CustomKeywords.'demo.Login.login'(username, password)
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Swag Labs/span_Products'), 10, FailureHandling.OPTIONAL)
+
+String product1 = WebUI.getText(findTestObject('Object Repository/Page_Swag Labs/Page_Swag Labs/div_Sauce Labs Backpack'))
+
+WebUI.verifyMatch(product1, 'Sauce Labs Backpack', false)
 
 WebUI.click(findTestObject('Object Repository/Page_Swag Labs/product' , [product : product] ))
 
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Swag Labs/Page_Swag Labs/button_Back to products'), 10, FailureHandling.OPTIONAL)
+
 WebUI.click(findTestObject('Object Repository/Page_Swag Labs/Page_Swag Labs/button_Add to cart'))
+
+String remove = WebUI.getText(findTestObject('Object Repository/Page_Swag Labs/Page_Swag Labs/button_Remove'))
+
+WebUI.verifyMatch(remove, 'Remove', false)
 
 WebUI.click(findTestObject('Object Repository/Page_Swag Labs/a_Swag Labs_shopping_cart_link'))
 
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Swag Labs/Page_Swag Labs/span_Your Cart'), 10, FailureHandling.OPTIONAL)
+
+String cart = WebUI.getText(findTestObject('Object Repository/Page_Swag Labs/Page_Swag Labs/span_Your Cart'))
+
+WebUI.verifyMatch(cart, 'Your Cart', false)
+
 WebUI.click(findTestObject('Object Repository/Page_Swag Labs/Page_Swag Labs/button_Checkout'))
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Swag Labs/Page_Swag Labs/span_Checkout Your Information'), 10, FailureHandling.OPTIONAL)
 
 WebUI.closeBrowser()
 

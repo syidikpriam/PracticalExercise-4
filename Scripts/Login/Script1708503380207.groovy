@@ -25,7 +25,19 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.saucedemo.com/')
 
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Swag Labs/Page_Swag Labs/div_Swag Labs'), 10, FailureHandling.OPTIONAL)
+
+String view = WebUI.getText(findTestObject('Object Repository/Page_Swag Labs/Page_Swag Labs/div_Swag Labs'))
+
+WebUI.verifyMatch(view, 'Swag Labs', false)
+
 CustomKeywords.'demo.Login.login'(username, password)
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Swag Labs/span_Products'), 10, FailureHandling.OPTIONAL)
+
+String product1 = WebUI.getText(findTestObject('Object Repository/Page_Swag Labs/Page_Swag Labs/div_Sauce Labs Backpack'))
+
+WebUI.verifyMatch(product1, 'Sauce Labs Backpack', false)
 
 WebUI.closeBrowser()
 
