@@ -28,8 +28,11 @@ WebUI.navigateToUrl('https://www.saucedemo.com/')
 
 CustomKeywords.'demo.Login.login'(username, password)
 
-
 WebUI.click(findTestObject('Object Repository/Page_Swag Labs/product' , [product : product] ))
+
+WebUI.click(findTestObject('Object Repository/Page_Swag Labs/Page_Swag Labs/button_Add to cart'))
+
+WebUI.click(findTestObject('Object Repository/Page_Swag Labs/a_Swag Labs_shopping_cart_link'))
 
 WebUI.closeBrowser()
 

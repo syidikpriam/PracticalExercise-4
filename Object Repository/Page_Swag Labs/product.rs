@@ -18,6 +18,6 @@
       <name>text</name>
       <type>Main</type>
       <value>${product}</value>
-      <webElementGuid>b3d7c7a6-bcd0-4bd7-be13-258c96d146e6</webElementGuid>
+      <webElementGuid>5819eed5-5024-4e0d-954b-8943f5ad67ee</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

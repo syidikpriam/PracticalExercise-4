@@ -20,7 +20,6 @@ import org.openqa.selenium.Keys as Keys
 def testData = findTestData('Data Files/DataTest')
 def username = testData.getObjectValue('username', 1)
 def password = testData.getObjectValue('password', 1)
-def product = testData.getObjectValue('product', 1)
 
 WebUI.openBrowser('')
 
@@ -28,9 +27,7 @@ WebUI.navigateToUrl('https://www.saucedemo.com/')
 
 CustomKeywords.'demo.Login.login'(username, password)
 
-
-WebUI.click(findTestObject('Object Repository/Page_Swag Labs/product' , [product : product] ))
-
 WebUI.closeBrowser()
+
 
 
